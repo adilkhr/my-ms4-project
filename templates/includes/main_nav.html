@@ -17,11 +17,11 @@
                 Men
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="men-link">
-                <a href="" class="dropdown-item">Shoes</a>
-                <a href="" class="dropdown-item">Tops</a>
-                <a href="" class="dropdown-item">Bottoms</a>
-                <a href="" class="dropdown-item">Jackets</a>
-                <a href="" class="dropdown-item">All Clothing</a>
+                <a href="{% url 'products' %}?category=mens_shoes" class="dropdown-item">Shoes</a>
+                <a href="{% url 'products' %}?category=mens_tops" class="dropdown-item">Tops</a>
+                <a href="{% url 'products' %}?category=mens_bottoms" class="dropdown-item">Bottoms</a>
+                <a href="{% url 'products' %}?category=mens_jackets" class="dropdown-item">Jackets</a>
+                <a href="{% url 'products' %}?category=mens_shoes,mens_tops,mens_bottoms,mens_jackets" class="dropdown-item">All Clothing</a>
             </div>
         </li>
 
@@ -30,11 +30,11 @@
                 Women
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="women-link">
-                <a href="" class="dropdown-item">Shoes</a>
-                <a href="" class="dropdown-item">Tops</a>
-                <a href="" class="dropdown-item">Bottoms</a>
-                <a href="" class="dropdown-item">Jackets</a>
-                <a href="" class="dropdown-item">All Clothing</a>
+                <a href="{% url 'products' %}?category=womens_shoes" class="dropdown-item">Shoes</a>
+                <a href="{% url 'products' %}?category=womens_tops" class="dropdown-item">Tops</a>
+                <a href="{% url 'products' %}?category=womens_bottoms" class="dropdown-item">Bottoms</a>
+                <a href="{% url 'products' %}?category=womens_jackets" class="dropdown-item">Jackets</a>
+                <a href="{% url 'products' %}?category=womens_shoes,womens_tops,womens_bottoms,womens_jackets" class="dropdown-item">All Clothing</a>
             </div>
         </li>
 

@@ -1,0 +1,1 @@
+web: gunicorn adz_garmz.wsgi:application

@@ -138,6 +138,65 @@
     {% block content %}
     {% endblock %}
 
+            <!-- footer of website -->
+            {% block footer %}
+            <footer class="page-footer">
+                <div class="sociallinks">
+                    <div class="container">
+                        <div class=" row py-4 d-flex align-items-center">
+                            
+                            <div class ="col-md-12 text-center">
+                            <a href="https://www.snapchat.com/l/en-gb/" target="_blank"><i class="fab fa-snapchat-ghost text-white mr-4"></i></a>
+                            <a href="https://twitter.com/?lang=en-gb" target="_blank"><i class="fab fa-twitter text-white mr-4"></i></a>
+                            <a href="https://en-gb.facebook.com/" target="_blank"><i class="fab fa-facebook-f text-white mr-4"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram text-white mr-4"></i></a>
+                            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube text-white mr-4"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+             
+                <div class="page-footer container text-center text-md-left mt-5">
+                    <div class="row">
+                        
+                     <div class="col-md-3 mx-auto mb-4">
+                            <h6 class="footerheader text-uppercase font-weight-bold">About us</h6>
+                            <hr class="hr mb-4 mt-0 d-inline-block mx-auto">
+                            <p class="mt-2">We are a clothing organisation that offers top end quality clothing that can be used for your everyday fitness or even going out lifestyle.</p>
+                        </div>
+             
+                           <div class="col-md-2 mx-auto mb-4">
+                            <h6 class="footerheader text-uppercase font-weight-bold">Hours</h6>
+                            <hr class="hrhours mb-4 mt-0 d-inline-block mx-auto">
+             
+                            <ul class ="list-unstyled">
+                                <li class="my-2">Mon: 06:00-22:00</li>
+                                <li class="my-2">Tue: 06:00-22:00</li>
+                                <li class="my-2">Wed: 06:00-22:00</li>
+                                <li class="my-2">Thu: 06:00-22:00</li>
+                                <li class="my-2">Fri: 06:00-22:00</li>
+                                <li class="my-2">Sat: 08:00-20:00</li>
+                                <li class="my-2">Sun: CLOSED</li>
+                            </ul>  
+                         </div>
+                        
+                        <div class="col-md-3 mx-auto mb-4">
+                            <h6 class="footerheader text-uppercase font-weight-bold">Contact</h6>
+                            <hr class="hrcontact mb-4 mt-0 d-inline-block mx-auto">
+             
+                            <ul class ="list-unstyled">
+                                <li class="my-2"><i class="fas fa-map-marker-alt mr-3"></i>Ealing, London W13 8RA</li>
+                                <li class="my-2"><i class="fas fa-envelope-open mr-3"></i>adzgarmz@example.com</li>
+                                <li class="my-2"><i class="fas fa-phone mr-3"></i>020 9344 6570</li>
+                                <li class="my-2"><i class="fas fa-fax mr-3"></i>+0078374464</li>
+                            </ul>       
+                         </div>
+                    </div>
+                </div>
+             </footer>
+             
+            {% endblock %}
+
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');

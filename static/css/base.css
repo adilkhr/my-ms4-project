@@ -110,6 +110,10 @@ input[name='q']::placeholder {
 
 /*-- Footer Styling --*/
 
+.no-floating-footer {
+    min-height: 100%;
+}
+
 .page-footer{
     background-color: black;
 }

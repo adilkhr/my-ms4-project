@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!--Import Email Js-->
+{% block extra_js %}
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script>
+   (function(){
+      emailjs.init("user_3MpZ43XcMqWmcr1rZUerd");
+   })();
+</script>
+
+{% endblock %}
+
+<!--Contact Page Main Body-->
+<form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+  </form>
+
+
+ {% endblock %}
+
+ {% block postloadjs %}
+ {{ block.super }}
+ <script src="{% static 'contact/js/email.js' %}"></script>
+ {% endblock %}
+    

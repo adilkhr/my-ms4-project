@@ -222,9 +222,6 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
-/*----- Contact Page -----*/
-
-
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

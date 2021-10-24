@@ -25,22 +25,29 @@
                 <br>
             </div>
         </div>
-        <form class="was-valiated" method="post">
+
+        <div class="container">
+        <form method="post" class="was-valiated">
+            {% csrf_token %}
             <div class="form-group">
-                <label for="fname">Your Name</label>
-                <input name='name' type="text" class="form-control" id="fname" placeholder="name" required>
-              </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Your Email</label>
-              <input name='email' type="email" class="form-control" id="exampleInputEmail1" placeholder="name@example.com" required>
-            </div>
-            <div class="form-group">
-              <label for="subject">Subject</label>
-              <textarea name='subject' class="form-control" id="subject" rows="3" required></textarea>
-            </div>
-          </form>
-          <button type="button" class="btn btn-success btn-dark" type="submit">Submit</button>
-          </div>
+            <label for="fname">Your Name</label>
+            <input name='name' type="text" id="fname" class="form-control" placeholder="Your name..." required>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Your email</label>
+            <input type="email" name='email' class="form-control" id="exampleInputEmail1" placeholder="name@example.com" required>
+    </div>
+    
+    <div class="form-group">
+            <label for="subject">Subject</label>
+            <textarea name='subject' class="form-control" id="subject" placeholder="Write something..." style="height:200px" required></textarea>
+           
+            <input type="submit" class="btn btn-success btn-lg mt-1 ml-4" value="Submit">
+        </div>
+        </form>
+        </div>
+        </div>
 {% endblock %}
 
 {% block postloadjs %}

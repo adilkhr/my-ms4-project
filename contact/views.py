@@ -3,8 +3,6 @@ from .models import Contact
 from django.http import HttpResponse
 
 # Create your views here.
-
-
 def contact(request):
     """ A view to return the contact page """
     if request.method=="POST":

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+{% block extra_css %}
+
+{% endblock %}
+{% block content %}
+<!--Add Review Content and Form-->
+<div class="overlay"></div>
+<div class="row no-floating-footer">
+   <div class="col l8 offset-l2 m10 offset-m1">
+      <form method="POST" action="{% url 'write_review' %}" class="form card-panel">
+         <h1 class="center-align">Add Your Review</h1>
+         <p class="large-text center-align">Please fill out the form below to create your own review</p>
+         {% csrf_token %}
+         {{ form }}
+         <div class="center-align">
+            <a class="btn center-align" href="{% url 'reviews' %}">Cancel</a>
+            <button class="btn center-align" type="submit">Add Review</button>
+         </div>
+      </form>
+   </div>
+</div>
+{% endblock %}

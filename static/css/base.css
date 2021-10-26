@@ -10,7 +10,7 @@ body {
     height: calc(100vh - 164px);
     color: #555;
     overflow-x: hidden;
-    position: relative
+    position: relative;
     font-family: 'Russo One', sans-serif;
 }
 

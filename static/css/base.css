@@ -9,6 +9,8 @@ body {
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
+    overflow-x: hidden;
+    position: relative
     font-family: 'Russo One', sans-serif;
 }
 

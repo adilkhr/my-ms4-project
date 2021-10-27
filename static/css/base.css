@@ -249,7 +249,7 @@ input#id_title.form-control {
 
 textarea#id_comments.form-control {
 	font-size: 1.5rem;
-	height: 15vh;
+	height: 35vh;
 }
 
 .card {

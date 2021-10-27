@@ -6,8 +6,9 @@
 {% block content %}
 {% if user.is_authenticated %}
 <!--Edit Review Content and Form-->
-<div class="overlay" id="reviews-container"></div>
-<div class="row no-floating-footer">
+<div id="reviews-container" class="no-floating-footer">
+<div class="overlay"></div>
+<div class="row">
    <div class="col l8 offset-l2 m10 offset-m1">
       <form method="POST" action="{% url 'edit_review' review.id %}" class="form card-panel">
          <h1 class="center-align">Edit Your Review</h1>

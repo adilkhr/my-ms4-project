@@ -261,6 +261,10 @@ textarea#id_comments.form-control {
     margin-top: 170px;
 }
 
+#reviews-container-edit-add {
+    margin-top: 200px;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -383,5 +387,13 @@ textarea#id_comments.form-control {
 
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
+    }
+
+    #reviews-container {
+        margin-top: 100px;
+    }
+
+    #reviews-container-edit-add {
+        margin-top: 120px;
     }
 }

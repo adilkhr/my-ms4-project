@@ -15,7 +15,7 @@
     </div>
 {% for review in reviews %}
 <div class="row custom-row">
-   <div class="col l10 offset-l1  s12 m10">
+   <div class="col l10 s12 m10">
       <div class="card home-card ">
          <div class="card-content center-align review-card-content">
             <h3 align="center" class="card-title review-card-title">{{ review.title }}</h3>
@@ -27,9 +27,9 @@
             <!--Edit/Delete Review Buttons-->
             <div class="card-action center-align">
                {% if request.user.userprofile == review.creator %}
-               <a class="btn" href="{% url 'edit_review' review.id %}"
+               <a class="btn btn-primary" href="{% url 'edit_review' review.id %}"
                   aria-label="Edit review from {{ review.creator }}">Edit</a>
-               <a class="btn" href="{% url 'delete_review' review.id %}">Delete</a>
+               <a class="btn btn-danger" href="{% url 'delete_review' review.id %}">Delete</a>
                {% endif %}
             </div>
          </div>
@@ -40,13 +40,13 @@
 <!--Add Review CTA Card-->
 {% if request.user.is_authenticated %}
 <div class="row">
-   <div class="col s12 m8 offset-m2 ">
+   <div class="col s12 m8">
       <div class="card home-card center-align">
          <div class="card-content center-align ">
             <p class="large-text">Click here to leave your own review</p>
          </div>
          <div class="card-action center-align">
-            <a href="{% url 'write_review' %}" class="btn btn-primary">Create Review</a>
+            <a href="{% url 'write_review' %}" class="btn btn-secondary">Create Review</a>
          </div>
       </div>
    </div>

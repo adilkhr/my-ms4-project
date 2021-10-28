@@ -15,11 +15,11 @@
 </div>
 </div>
 {% for review in reviews %}
-<div class="row">
+<div>
    <div class="container">
       <div class="card">
          <div class="card-content review-card-content">
-            <h3 align="center" class="card-title review-card-title">{{ review.title }}</h3>
+            <h4 align="center" class="card-title review-card-title">{{ review.title }}</h4>
          </div>
          <div class="card-action">
             <p align="center"><strong> Review </strong><br>{{ review.comments }}</p>
@@ -40,7 +40,7 @@
 {% endfor %}
 <!--Add Review CTA Card-->
 {% if request.user.is_authenticated %}
-<div class="row">
+<div>
    <div class="container">
       <div class="card">
          <div class="card-action">

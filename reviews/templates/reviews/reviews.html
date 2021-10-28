@@ -4,28 +4,29 @@
 <!--Main Review Content-->
 <div id="reviews-container">
 <div class="overlay"></div>
-<div class="container no-floating-footer">
+<div class="container">
     <div class="row">
-        <div class="col">
+        <div class="container">
             <hr>
             <h2 class="logo-font mb-4">Our Reviews</h2>
             <hr>
         </div>
-    </div>
-    </div>
+   </div>
+</div>
+</div>
 {% for review in reviews %}
-<div class="row custom-row">
-   <div class="col l10 s12 m10">
-      <div class="card home-card ">
-         <div class="card-content center-align review-card-content">
+<div class="row">
+   <div class="container">
+      <div class="card">
+         <div class="card-content review-card-content">
             <h3 align="center" class="card-title review-card-title">{{ review.title }}</h3>
          </div>
-         <div class="card-action center-align">
+         <div class="card-action">
             <p align="center"><strong> Review </strong><br>{{ review.comments }}</p>
             <p align="center"><strong> Date </strong><br>{{ review.date_created }}</p>
             <p align="center"><strong> By </strong><br>{{ review.creator }}</p>
             <!--Edit/Delete Review Buttons-->
-            <div class="card-action center-align">
+            <div class="card-action">
                {% if request.user.userprofile == review.creator %}
                <a class="btn btn-primary" href="{% url 'edit_review' review.id %}"
                   aria-label="Edit review from {{ review.creator }}">Edit</a>
@@ -40,18 +41,13 @@
 <!--Add Review CTA Card-->
 {% if request.user.is_authenticated %}
 <div class="row">
-   <div class="col s12 m8">
-      <div class="card home-card center-align">
-         <div class="card-content center-align ">
-            <p class="large-text">Click here to leave your own review</p>
-         </div>
-         <div class="card-action center-align">
-            <a href="{% url 'write_review' %}" class="btn btn-secondary">Create Review</a>
+   <div class="container">
+      <div class="card">
+         <div class="card-action">
+            <a href="{% url 'write_review' %}" class="btn btn-primary btn-lg btn-block">Create Review</a>
          </div>
       </div>
    </div>
-</div>
-</div>
 </div>
 {% endif %}
 {% endblock %}

@@ -230,14 +230,6 @@ input[name='q']::placeholder {
 
 /*-----------Reviews Page--------*/
 
-/*----Back to Top Button -------*/
-
-/*--This Code was found on Codepen.io--*/
-
-.review-card-content {
-	padding: 0 !important;
-}
-
 .review-card-title {
 	font-size: 2.5rem;
 }

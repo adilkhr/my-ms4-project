@@ -70,7 +70,7 @@
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
                                 {% if request.user.is_superuser %}
-                                    <a href="" class="dropdown-item">Product Management</a>
+                                    <a href="{% url 'write_review' %}" class="dropdown-item">Add Review</a>
                                 {% endif %}
                                 <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
                                 <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
@@ -173,13 +173,13 @@
                             <hr class="hrhours mb-4 mt-0 d-inline-block mx-auto">
              
                             <ul class ="list-unstyled">
-                                <li class="my-2">Mon: 06:00-22:00</li>
-                                <li class="my-2">Tue: 06:00-22:00</li>
-                                <li class="my-2">Wed: 06:00-22:00</li>
-                                <li class="my-2">Thu: 06:00-22:00</li>
-                                <li class="my-2">Fri: 06:00-22:00</li>
-                                <li class="my-2">Sat: 08:00-20:00</li>
-                                <li class="my-2">Sun: CLOSED</li>
+                                <li class="my-2">Mon: 10:00-20:00</li>
+                                <li class="my-2">Tue: 10:00-20:00</li>
+                                <li class="my-2">Wed: 10:00-20:00</li>
+                                <li class="my-2">Thu: 10:00-20:00</li>
+                                <li class="my-2">Fri: 10:00-20:00</li>
+                                <li class="my-2">Sat: 10:00-20:00</li>
+                                <li class="my-2">Sun: 12:00-18:00</li>
                             </ul>  
                          </div>
                         

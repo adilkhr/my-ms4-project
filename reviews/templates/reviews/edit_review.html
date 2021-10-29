@@ -8,19 +8,17 @@
 <!--Edit Review Content and Form-->
 <div id="reviews-container-edit-add" class="no-floating-footer">
 <div class="overlay"></div>
-<div class="container row">
    <div class="container">
       <form method="POST" action="{% url 'edit_review' review.id %}" class="form card-panel">
-         <h1 class="center-align">Edit Your Review</h1>
+         <h1>Edit Your Review</h1>
          <p class="large-text center-align">Please fill out the form below to edit own review</p>
          {% csrf_token %}
          {{ form }}
-         <div class="center-align">
+         <div class="center">
             <a class="btn btn-danger" href="{% url 'reviews' %}">Cancel</a>
             <button class="btn btn-success" type="submit">Edit Review</button>
          </div>
       </form>
-      </div>
    </div>
 </div>
 {% endif %}

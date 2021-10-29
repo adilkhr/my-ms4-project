@@ -19,16 +19,16 @@
    <div class="container">
       <div class="card">
          <div class="card-content review-card-content">
-            <h4 align="center" class="card-title review-card-title">{{ review.title }}</h4>
+            <h4 class="card-title review-card-title">{{ review.title }}</h4>
          </div>
          <div class="card-action">
-            <p align="center"><strong> Review </strong><br>{{ review.comments }}</p>
-            <p align="center"><strong> Date </strong><br>{{ review.date_created }}</p>
-            <p align="center"><strong> By </strong><br>{{ review.creator }}</p>
+            <p><strong> Review </strong><br>{{ review.comments }}</p>
+            <p><strong> Date </strong><br>{{ review.date_created }}</p>
+            <p><strong> By </strong><br>{{ review.creator }}</p>
             <!--Edit/Delete Review Buttons-->
             <div class="card-action">
                {% if request.user.userprofile == review.creator %}
-               <a class="btn btn-primary" href="{% url 'edit_review' review.id %}"
+               <a class="btn btn-dark" href="{% url 'edit_review' review.id %}"
                   aria-label="Edit review from {{ review.creator }}">Edit</a>
                <a class="btn btn-danger" href="{% url 'delete_review' review.id %}">Delete</a>
                {% endif %}
@@ -43,9 +43,7 @@
 <div>
    <div class="container">
       <div class="card">
-         <div class="card-action">
-            <a href="{% url 'write_review' %}" class="btn btn-primary btn-lg btn-block">Create Review</a>
-         </div>
+            <a href="{% url 'write_review' %}" class="btn btn-dark btn-lg btn-block">Create Review</a>
       </div>
    </div>
 </div>

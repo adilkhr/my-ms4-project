@@ -79,3 +79,57 @@ As a frequent user/registered account holder of the site:
 
 * To allow registered shoppers who are regulars to the site to share the reviews on the products they purchased
 
+## Scope
+#### What a user may expect:
+
+* Easy to navigate the application
+
+* A site that is visually appealing on all devices
+
+* An option to register an account
+
+* A variety of sizes to choose from for products
+
+* A search bar to find a specific product
+
+* To view products via a specific category
+
+* A login feature to log in and access their profile portal
+
+* A variety of products that can be searched via specific categories
+
+* A secure and safe way to checkout
+
+
+#### What a user may want:
+
+* An option to save their delivery details when they make a purchase so that it saves to for next time they check out
+
+* To be able to view their previous order details on their profile account
+
+* To be able to update the contents of their bag through the bag app and view the grand total of their bag to know how much they are spending
+
+* To be able to sort the list of available products
+
+* An option to write a review of their experience with the site
+
+* Some sort of promotional offer that the site offers such as free delivery if they purchase a certain amount to encourage them to purchase more
+
+
+#### As a developer / business I expect:
+
+* To provide an easy feature for users to register an account
+
+* To provide a variety of clothing options as well as sizes for all users to purchase
+
+* To provide an easy login page for users to log in once they have successfully created their account
+
+* To ensure users are able to securely check out
+
+* To be able to edit and update prices of products in the admin of the site as well as add new lines of clothing here and there to give shoppers more options
+
+* To allow registered users to create reviews and add them to the reviews page
+
+* To also allow registered users to have the choice whether or not they would like to delete or edit their reviews on the reviews and for them to only have access to this option for their reviews
+
+

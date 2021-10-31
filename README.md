@@ -133,3 +133,29 @@ As a frequent user/registered account holder of the site:
 * To also allow registered users to have the choice whether or not they would like to delete or edit their reviews on the reviews and for them to only have access to this option for their reviews
 
 
+## Structure
+
+The website will consist of a variety of pages to access via the navbar:
+
+* A home page will contain a message displaying the message, “SHOP THE LATEST TRENDS” with a shop now button which will take users to the all products page, on the desktop the website name will be displayed on the top left with the left and when clicked on, it will direct users back to the home page
+
+* In the navbar there will be all products link which will also have dropdown features for users to show products based on price, rating, and category,
+
+* In the navbar there will be a men and a women link with a dropdown feature for both displaying the different types of clothes to view such as men’s hoodies, men’s tops, men’s bottoms, and men’s jackets
+
+* There will be a search bar at the top of the page for users to search for items
+
+* A contact us page for users to fill out any issues or questions they may have
+
+* A reviews page for users to read other reviews, if a user is a registered user, they will have the option to create reviews with the create a review button and there will also be a delete and edit button under their review
+
+* Shopping bag app which will store the user’s items they have added with options to update the quantity or remove from the bag, displaying their total with an option to go back or secure to the checkout page
+
+* There will be a “my account” user icon on the top right which will have a dropdown option for users who are not logged in with “register” and “log-in”. If the user is logged in there will be a drop-down option for them to “write a review”, “profile” and “log out”
+
+* A footer is displayed at the bottom of every page  
+
+***
+
+
+

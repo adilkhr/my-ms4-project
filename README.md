@@ -237,5 +237,20 @@ The checkout page will be where users add their delivery details as well as thei
 
 ***
 
+## Future Features 
+
+* Customisable features for registered users to change color schemes of their profile and the site
+
+* An option for registered users to add a profile image
+
+* An option for registered users to delete their account
+
+* A customer service team getting back to users in regards to their enquiries when filling out the contact form
+
+* To add new lines of clothing every week or so to update and add more choice to the users and shoppers of the site
+
+* An option for users to filter products based on color as some users may have different preferences based on the color of clothes
+
+***
 
 

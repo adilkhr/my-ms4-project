@@ -259,9 +259,9 @@ The checkout page will be where users add their delivery details as well as thei
 
 Note: Wireframes for the desktop and mobile both share a similar structure for tablet depending on the screen size for tablet as some tablets will have a dropdown navbar like mobile screens
 
-* Wireframes for desktop have been created and can be viewed [here]()
+* Wireframes for desktop have been created and can be viewed [here](https://github.com/adilkhr/my-ms4-project/blob/main/wireframes/wireframesms4desktop.pdf)
 
-* Wireframes for the mobile phones have been created and can be viewed [here]()
+* Wireframes for the mobile phones have been created and can be viewed [here](https://github.com/adilkhr/my-ms4-project/blob/main/wireframes/wireframesms4phone.pdf)
 
 
 

@@ -157,5 +157,26 @@ The website will consist of a variety of pages to access via the navbar:
 
 ***
 
+## Database
+
+### Database Schema:
+
+When creating the structure of the database I needed to understand how the data would link and interact with each other. I wanted it o be logical and easy to follow. Every product on my site is linked to a category eg men’s hoodies, every review created is linked to a user account, and every order is linked to a user.
+
+Each order has its own unique order number that is created once the user’s purchase goes through and is successful. For users that have not registered, the order number is linked and provided in the email they used at the checkout.
+
+During the development of my project used SQLite, which is provided by Django, and for production, I used Heroku Postgres. For production mode, I also had to use Amazon Web Services (AWS) to host all my static and media files.
+
+Below is the data structure:
+
+![Data Model](README-files/ms4databasestructure.png)
+
+### Databases Used:
+
+* Heroku Postgres for production
+* sqLite3 for development
+* AWS S£ for static and media files
+
+***
 
 

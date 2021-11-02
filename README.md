@@ -229,7 +229,7 @@ The review page will allow users to read reviews from other shoppers and allow r
 
 ### Shopping bag page: 
 
-The shopping page will contain whatever the user decided to select and purchase from the products pages and add them to the bag. When users go on the shopping bag, they will be able to view the items of the bag as well as the grand total, users will be able to update the contents of the bag such as removing an item from the bag or increasing the quantity of the product, they are presented with an option to either check out if they are done browsing or an option to keep shopping if they still want to browse
+The shopping bag page will contain whatever the user decided to select and add to the bag from the products pages. When users go on the shopping bag, they will be able to view the items of the bag as well as the grand total, users will be able to update the contents of the bag such as removing an item from the bag or increasing the quantity of the product, they are presented with an option to either check out if they are done browsing or an option to keep shopping if they still want to browse
 
 ### Checkout page:
 

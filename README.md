@@ -39,7 +39,7 @@ As a new user:
 
 As a frequent user/registered account holder of the site:
 
-* I want to be able to save my order details for next time so that it saves me time
+* I want to be able to save my delivery details for next time so that it saves me time
 
 * I want to be able to view my previous orders and the order details of that purchase
 

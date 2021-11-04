@@ -64,10 +64,6 @@ As a frequent user/registered account holder of the site:
 
 * I want to be able to update the content of my bag through the shopping bag application by updating the quantity of the item or just completely removing the item from my bag
 
-* I want the site to be easy to navigate
-
-* I want the site to be responsive and work on a majority of devices
-
 
 #### Reasons for the website:
 
@@ -321,6 +317,26 @@ Note: Wireframes for the desktop and mobile both share a similar structure for t
 * [am i responsive](http://ami.responsivedesign.is/) - Used to create mockup images for my site
 
 ***
+
+## Testing
+
+### Supported Screens:
+
+After using some elements of bootstrap to build my pages and the use of CSS media queries styles, using the google inspect tool I was able to see that my site is supported for all modern screens with a width of 300px and above. I also did some testing by sending my website link to my friend’s and family’s devices and they had seen no issues.
+
+### Supported browsers:
+
+The website link has been tested on Google Chrome, Internet Explorer and Microsoft Edge, Brave, and Firefox and seems to be working fine.
+
+### OS compatibility:
+
+Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to test that it was working. Tested for responsiveness using Chrome DevTools.
+
+### Performance Testing:
+
+* Tested on the Developer Tools Lighthouse
+
+* I had family and friends test the site on a different device to see if there were any major issues they were having when using or accessing the site and turns out they had found no major issues. I also had friends test the site by creating an account and placing an order and there seemed to be no major issues with functionality as well as adding a review to the reviews page
 
 
 

@@ -389,3 +389,19 @@ Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to
 
 * [Pep8 Online](http://pep8online.com/) was used to check for Pep8 compliances for my python file and test the validity of the code, which the code turned out to be all good
 
+
+### Fixed bugs:
+
+* I had an issue with the footer on my profile page displaying white space on the left and right, this was because I had an unclosed div which caused this, closed the div and it had resolved it.
+
+* I had an issue with the footer creating white spaces on pages that didn't have much content, I resolved this by creating a class and adding CSS styling called no-floating-footer which I added a min-height of 100%
+
+* I had an issue with my reviews pages having a horizontal scroll on mobile, this was because I had a div with a class row outside of a div with a class container, once I removed the div class of row it had fixed it
+
+* I had an issue where the font style I wanted to apply was not displaying, this was because I forgot to add the link rel=“style sheet” in the base.html
+
+* I has an issue with my home page button not displaying in my navbar for tablet screens between 767px - 991px, this was because I had the class d-md-none to the <li> home element which caused it not to appear on medium screen sizes
+
+***
+
+

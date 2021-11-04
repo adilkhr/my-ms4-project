@@ -358,9 +358,15 @@ Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to
 
 * I want to be able to view my previous orders and the order details of that purchase - When registered users create an account, whatever orders they purchased is saved and they can view it any time on their profile page
 
+![userstory delivery details](README-files/userstorydelivery.png)
+
 * I want to be able to add and edit reviews of my experience of the e-commerce site - Users are able to edit and create reviews on the reviews page through the create review button or in my account there will be an add review link
 
+![userstory create edit review](README-files/userstorycreateeditreview.png)
+
 * I want to be able to update and edit my profile details such as my delivery details if I happen to move location - Users are able to edit their delivery details whenever on their profile page
+
+![userstory profile](README-files/userstoryupdateprofile.png)
 
 * I want to be able to recover my password if I end up forgetting it - Users have an option to recover their password on the login page
 
@@ -376,7 +382,11 @@ Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to
 
 *  When viewing products on the site, I want to be able to sort the list of available products, eg price low to high - when users go on a products page, they are able to sort the product based on price, category, and rating through the sort by drop-down function
 
+![userstory sort](README-files/userstorysort.png)
+
 * I want to be able to update the content of my bag through the shopping bag application by updating the quantity of the item or just completely removing the item from my bag - Users are able to update the quantity of the products in their bag and can also remove the item from the bag
+
+![userstory bag](README-files/userstorybag.png)
 
 
 ### Code Validation:

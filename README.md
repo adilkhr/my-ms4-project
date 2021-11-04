@@ -287,4 +287,40 @@ Note: Wireframes for the desktop and mobile both share a similar structure for t
 
 ***
 
+## Technologies Used
+
+### Languages & Frameworks
+
+* HTML5 - Mark-up language used to create the pages for the site using a semantic structure
+* CCS3 - Cascading style sheet used to style the site, as well as adding media queries to make it responsive for pretty much all devices
+* [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - CSS Framework used for structure, buttons, and some styling around the site, as well as media functions for images
+* Javascript - The programming language used to create functions working for the site
+* Python - The programming language used to control backend development of the site
+* Django - Framework + Extensions
+* [jQuery](https://jquery.com/) - Used
+* [Gitpod.io](https://www.gitpod.io/) - Used for creating the workspace for writing the code. Using the command line terminal for committing and pushing to GIT Hub
+* [GitHub](https://github.com/) - Used for hosting repositories
+* GIT - Used for pushing the code to repositories
+
+### Front End
+
+* [Google fonts](https://fonts.google.com/) - Used for the Font
+* [Font Awesome](https://fontawesome.com/) - For the icons used
+
+### Backend
+
+* [Stripe](https://stripe.com/gb) - Used to create the payment system for the site
+* [Heroku](https://id.heroku.com/login) - Used to host the deployed project
+* [AWS](https://aws.amazon.com) - Used to host static files and Images for the deployed site
+
+### Planning
+
+* [Balsamic Wireframes](https://balsamiq.com/) - Used to create the wireframe designs of the site
+* [dbdiagram](https://dbdiagram.io/home) - Used to create the data structure of my project database
+* [google docs](https://docs.google.com/) -  Used to create the readme to minimize spelling and grammar errors
+* [am i responsive](http://ami.responsivedesign.is/) - Used to create mockup images for my site
+
+***
+
+
 

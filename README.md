@@ -279,4 +279,12 @@ Note: Wireframes for the desktop and mobile both share a similar structure for t
 
 ***
 
+## Typography and color scheme
+
+* For Typography I used google fonts to then apply the Oswald font all around the site along with Roboto, sans-serif for other parts of the site.
+
+* The color scheme used around my site was mainly black, white, and shades of greys which was applied in a sleek and simple manner using CSS and bootstrap
+
+***
+
 

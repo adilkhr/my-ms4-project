@@ -338,5 +338,44 @@ Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to
 
 * I had family and friends test the site on a different device to see if there were any major issues they were having when using or accessing the site and turns out they had found no major issues. I also had friends test the site by creating an account and placing an order and there seemed to be no major issues with functionality as well as adding a review to the reviews page
 
+### Testing User Stories:
+
+#### New User
+
+* I want to be able to sign up and create an account - Users are able to create an account through the signup page
+
+* I want to be welcomed with a message from the home page encouraging me to purchase - When new users enter the site they are presented with a message saying “shop the latest trends” with a shop now button which will direct them to all products page
+
+* I want to be able to see what products are available and shop via category - Users can select either between all products, Men’s and Women’s When selecting the either men’s or women they can shop based on the category of clothing eg men’s jackets
+
+* I want to be able to view customer reviews before I make the decision of purchasing a product(s) - Users can view customer reviews on the reviews page that are created by registered users
+
+* I want to be sent an email confirmation to confirm my account has been created and that the site is legit - When the user signs up they are sent an Email to verify their account
+
+#### Existing User
+
+* I want to be able to save my delivery details for next time so that it saves me time - When users sign in they have an option to save their delivery details at the checkout page
+
+* I want to be able to view my previous orders and the order details of that purchase - When registered users create an account, whatever orders they purchased is saved and they can view it any time on their profile page
+
+* I want to be able to add and edit reviews of my experience of the e-commerce site - Users are able to edit and create reviews on the reviews page through the create review button or in my account there will be an add review link
+
+* I want to be able to update and edit my profile details such as my delivery details if I happen to move location - Users are able to edit their delivery details whenever on their profile page
+
+* I want to be able to recover my password if I end up forgetting it - Users have an option to recover their password on the login page
+
+* I want to easily log in and log out of my profile when I’m done shopping or using the site - Users are able to log out through the logout page
+
+#### All Users
+
+* I want to be able to contact the business in regards to any issues or enquiries I may have and once I submit my enquiry I am presented with a thank you message knowing my enquiry has gone through and has been submitted - Users are able to fill out the contact form which will save their name, email, and message and will be saved in the database, they are then directed to a thank you page with an option to go back to the home page
+
+* I want to be able to securely check out and purchase my items in my bag - Users are able to checkout and pay securely with the stripe payment system
+
+* I want to be able to search for a product by name or description - Users are able to search for products with the search bar in the navbar
+
+*  When viewing products on the site, I want to be able to sort the list of available products, eg price low to high - when users go on a products page, they are able to sort the product based on price, category, and rating through the sort by drop-down function
+
+* I want to be able to update the content of my bag through the shopping bag application by updating the quantity of the item or just completely removing the item from my bag - Users are able to update the quantity of the products in their bag and can also remove the item from the bag
 
 

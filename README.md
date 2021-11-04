@@ -379,3 +379,13 @@ Tested on iOS, Android 10, and Windows 10. - I asked a friend with an Android to
 * I want to be able to update the content of my bag through the shopping bag application by updating the quantity of the item or just completely removing the item from my bag - Users are able to update the quantity of the products in their bag and can also remove the item from the bag
 
 
+### Code Validation:
+
+* All my pages of the website were run through the [HTML Validator](https://validator.w3.org/#validate_by_input), because of Django being a templating language, the code when input was not showing the HTML code being valid, however, I copied the HTML code on within DEV Tools, both by viewing page source and from within the inspect as HTML and passed it into the validators to check the validity which most of my pages showed validity, however when viewing the page source of the shopping bag page, whenever there is an item in the bag there seems to be a duplicate id error of remove_, this is because the way it was implemented in the Boutique ado project (which I followed as recommended by my mentor) as I have two different elements with the remove and same id - using the hidden functionality to change between screen sizes, so they both have the same id in the page source but only one is displaying at a time. Overall the functionality of the bag is working perfectly.
+
+* The [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to check the validity of my CSS code which turned out to be all fine with no faults
+
+* [jshint](https://jshint.com/) was used to check the validity of my javascript code which turned out to be all fine with no faults
+
+* [Pep8 Online](http://pep8online.com/) was used to check for Pep8 compliances for my python file and test the validity of the code, which the code turned out to be all good
+

@@ -1,6 +1,6 @@
 # Milestone project 4: Builiding an Ecommerce site for fitness clothing named Adz Garmz
 
-![Main Mockup]()
+![Main Mockup](README-files/mainmockupimg.png)
 
 [Link to Live Website](https://adz-garmz.herokuapp.com)
 
@@ -263,5 +263,20 @@ Note: Wireframes for the desktop and mobile both share a similar structure for t
 
 * Wireframes for the mobile phones have been created and can be viewed [here](https://github.com/adilkhr/my-ms4-project/blob/main/wireframes/wireframesms4phone.pdf)
 
+### Mockup:
+
+![Home Mockup](README-files/homemockupimg.png)
+
+![Log in Mockup](README-files/signinmockupimg.png)
+
+![Register](README-files/registermockupimg.png)
+
+![Products](README-files/productsmockupimg.png)
+
+![Contact Us](README-files/contactmockupimg.png)
+
+![Reviews](README-files/reviewmockupimg.png)
+
+***
 
 

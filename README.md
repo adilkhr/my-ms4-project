@@ -600,13 +600,13 @@ Once the project has been loaded into the IDE it is necessary to install the nec
 
 * I used code from [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) for some of my front-end styling and Javascript
 
-*The code institute project [boutique ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) helped me build my project as it was recommended to use by my mentor and other students as it would provide a lot of help due to the complexity of the MS4 Project
+* The code institute project [boutique ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) helped me build my project as it was recommended to use by my mentor and other students as it would provide a lot of help due to the complexity of the MS4 Project
 
 ### Media:
 
-#Home page background image used was taken from [google images](https://www.google.com/imghp?hl=en)
+* Home page background image used was taken from [google images](https://www.google.com/imghp?hl=en)
 
-#Product images used were taken from [JD sports](https://www.jdsports.co.uk/)
+* Product images used were taken from [JD sports](https://www.jdsports.co.uk/)
 
 ### Acknowledgements:
 
@@ -620,7 +620,7 @@ Once the project has been loaded into the IDE it is necessary to install the nec
 
 * [W3schools](https://www.w3schools.com/) was used for various code information and troubleshooting problems
 
-* Code Institute tutor support - Provided me with a lot of help support when needed whenever I contacted them
+* Code Institute tutor support - Provided me with a lot of help support when needed whenever I contacted them, very friendly and supportive
 
 * [Youtube](https://www.youtube.com/) - Provided me with a lot of help when troubleshooting issues
 

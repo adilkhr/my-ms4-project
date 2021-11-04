@@ -592,8 +592,54 @@ Once the project has been loaded into the IDE it is necessary to install the nec
 2. In Github go to (https://github.com/adilkhr/my-ms4-project).
 3. In the top right-hand corner click "Fork".
 
-
 ***
+
+## Credits
+
+### Code:
+
+* I used code from [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) for some of my front-end styling and Javascript
+
+*The code institute project [boutique ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) helped me build my project as it was recommended to use by my mentor and other students as it would provide a lot of help due to the complexity of the MS4 Project
+
+### Media:
+
+#Home page background image used was taken from [google images](https://www.google.com/imghp?hl=en)
+
+#Product images used were taken from [JD sports](https://www.jdsports.co.uk/)
+
+### Acknowledgements:
+
+* Rohit Sharma (mentor support) - Provided me with help on how to structure the site and what should be the main focus of the project
+
+* Matt Rudge - Template for Gitpod.io
+
+* Full Stack Developers WhatsApp group (members of the code institute slack community) - for taking the time to test the website as well as providing help when needed with issues
+
+* I had used the [Code Institute sample readme template](https://github.com/Code-Institute-Solutions/SampleREADME) to structure my own readme.
+
+* [W3schools](https://www.w3schools.com/) was used for various code information and troubleshooting problems
+
+* Code Institute tutor support - Provided me with a lot of help support when needed whenever I contacted them
+
+* [Youtube](https://www.youtube.com/) - Provided me with a lot of help when troubleshooting issues
+
+* [Code institute project Boutique ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) Provided me with a lot of help initializing the development process of the site as well as setting up Django with the site, initiating stripe into my site as well as deployment, it also helped me with understanding more on python and how it works
+
+* Slack provided me with so much help whenever needed it also allowed me to view other people's ideas and get more of an understanding 
+
+### Content:
+
+I asked friends and family to create a profile to test the validation of the registration form and if they were able to receive an email to verify their account. I also had them write reviews to test the CRUD functionality of the reviews page.
+
+Code & Content (not already attributed): Adil Khair
+
+### Inspiration:
+
+* Inspiration was taken from the [Code institute Boutique ado project](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) to help gain an idea of how to structure my site and more idea on developing the backend side of my site and how to use Django in general
+
+* The Products and images were used and taken from an e-commerce site called [JD Sports](https://www.jdsports.co.uk/), as a regular shopper I liked the products that they sell as well as the product images used and thought it would look great to implement onto my site, as I spoke to tutor support and they had told me as long as I give full credit to JD and not used to site to generate real money then it is fine to use the images
+
 
 
 

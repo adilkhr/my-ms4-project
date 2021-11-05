@@ -3,13 +3,16 @@
 
 {% block content %}
 <div class="overlay"></div>
-    <div class="container container-error no-floating-footer">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-8 text-center">
-                <h1 class="text-center">404</h1>
-                <p>Oh no... The link is broken or the page has been moved :(<br>
-                    Click <a class ="error" href="{% url 'home' %}">here</a> to return to the main site.</p>              
-            </div>
+<div class="container no-floating-footer">
+    <div class="row">
+        <div class="col">
+            <hr>
+            <h1 class="logo-font mb-4">404</h1>
+            <hr>
+            <p>Oh no... The link is broken or the page has been moved :(<br>
+                Click <a class="error" href="{% url 'home' %}">here</a> to return to the main site.</p>
+            <br>
         </div>
     </div>
+</div>
 {% endblock %}
